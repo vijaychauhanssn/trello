@@ -35,9 +35,7 @@ class SessionsNew extends React.Component {
     return (
       <div className='view-container sessions new'>
         <main>
-          <header>
-            <div className="logo" />
-          </header>
+         
           <form id="sign_in_form" onSubmit={::this._handleSubmit}>
             {::this._renderError()}
             <div className="field">
@@ -47,7 +45,7 @@ class SessionsNew extends React.Component {
                 id="user_email"
                 placeholder="Email"
                 required="true"
-                defaultValue="john@phoenix-trello.com"/>
+                defaultValue="test@gmail.com"/>
             </div>
             <div className="field">
               <input
@@ -56,7 +54,7 @@ class SessionsNew extends React.Component {
                 id="user_password"
                 placeholder="Password"
                 required="true"
-                defaultValue="12345678"/>
+                defaultValue="40444044"/>
             </div>
             <button type="submit">Sign in</button>
           </form>

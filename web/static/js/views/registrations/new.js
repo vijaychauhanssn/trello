@@ -32,9 +32,7 @@ class RegistrationsNew extends React.Component {
     return (
       <div className="view-container registrations new">
         <main>
-          <header>
-            <div className="logo" />
-          </header>
+        
           <form id="sign_up_form" onSubmit={::this._handleSubmit}>
             <div className="field">
               <input ref="firstName" id="user_first_name" type="text" placeholder="First name" required={true} />

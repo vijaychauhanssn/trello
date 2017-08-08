@@ -129,9 +129,7 @@ class Header extends React.Component {
             </li>
           </ul>
         </nav>
-        <Link to='/'>
-          <span className='logo'/>
-        </Link>
+        
         <nav className="right">
           <ul>
             <li>
